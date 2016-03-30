@@ -72,7 +72,7 @@ window.engine = (new (function() {
       );
       uses[k].setAttribute("href", id);
     }
-
+    svg.style.fontSize = "23px";
     svg.style.position = "static";
     return this._serialize(svg);
   };

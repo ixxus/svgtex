@@ -6,7 +6,6 @@ var args = system.args;
 var server = require('webserver').create();
 var page = require('webpage').create();
 var fs = require('fs');
-
 var usage =
   'Usage: phantomjs main.js [options]\n' +
   'Options:\n' +
